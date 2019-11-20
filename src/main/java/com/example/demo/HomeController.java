@@ -28,4 +28,24 @@ public class HomeController {
     public String github2() {
         return "github2";
     }
+
+    @RequestMapping("/oop")
+    public String oop() {
+        return "oop";
+    }
+
+    @RequestMapping("/oop2")
+    public String oop2() {
+        return "oop2";
+    }
+
+    @RequestMapping("/corejava")
+    public String coreJava() {
+        return "corejava";
+    }
+
+    @RequestMapping("/corejava2")
+    public String coreJava2() {
+        return "corejava2";
+    }
 }
